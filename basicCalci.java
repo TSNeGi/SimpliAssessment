@@ -7,9 +7,9 @@ public class basicCalci{
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter first number: ");   // taking Integer input from user as num1
 		int num1=scan.nextInt();
-		System.out.print("Enter Second number:");   // taking Integer input from user as num1
+		System.out.print("Enter Second number:");   // taking Integer input from user as num2
 		int num2 =scan.nextInt();
-		System.out.print("Enter operation to be perform (+,-,*,/):");   // taking Char sign from USER as Arithmetic Operations
+		System.out.print("Enter operation to be perform (+,-,*,/):");   // taking Character 'sign' from USER as Arithmetic Operations
 		char sign=scan.next().charAt(0);
 		
 		
