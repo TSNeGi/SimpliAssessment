@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>flyaway</display-name>
+
+
+	<servlet>
+		<description></description>
+		<display-name>AdminServlet</display-name>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>com.flyaway.servlet.AdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/AdminServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<description></description>
+		<display-name>FlightServlet</display-name>
+		<servlet-name>FlightServlet</servlet-name>
+		<servlet-class>com.flyaway.servlet.FlightServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FlightServlet</servlet-name>
+		<url-pattern>/FlightServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet>
+		<description></description>
+		<display-name>ListAirlines</display-name>
+		<servlet-name>ListAirlines</servlet-name>
+		<servlet-class>com.flyaway.servlet.ListAirlines</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAirlines</servlet-name>
+		<url-pattern>/ListAirlines</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description></description>
+		<display-name>ListFlights</display-name>
+		<servlet-name>ListFlights</servlet-name>
+		<servlet-class>com.flyaway.servlet.ListFlights</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListFlights</servlet-name>
+		<url-pattern>/ListFlights</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<description></description>
+		<display-name>ListPlaces</display-name>
+		<servlet-name>ListPlaces</servlet-name>
+		<servlet-class>com.flyaway.servlet.ListPlaces</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListPlaces</servlet-name>
+		<url-pattern>/ListPlaces</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<description></description>
+		<display-name>passwordServlet</display-name>
+		<servlet-name>passwordServlet</servlet-name>
+		<servlet-class>com.flyaway.servlet.passwordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>passwordServlet</servlet-name>
+		<url-pattern>/passwordServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<welcome-file-list>
+		<welcome-file>home.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
