@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test App</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <form>
+        <h1>Test App  | Score : <span id="score"></span></h1>
+        <fieldset>
+            <legend class="ques" id="number"></legend>
+
+            <label class="ques" id="question">
+            </label>
+
+            <div><input type="radio" id="option1" name="options" value="false">
+                <span id="optiont1"></span>
+            </div>
+            <div><input type="radio" id="option2" name="options" value="false">
+                <span id="optiont2"></span>
+            </div>
+            <div><input type="radio" id="option3" name="options" value="false">
+                <span id="optiont3"></span>
+            </div>
+            </br>
+            <div class="lftCss">
+                <input type="button" value="Next" id="myButton1" onclick="checkAnswer()"></input>
+                <span id="final"></span>
+            </div>
+            </div>
+        </fieldset>
+    </form>
+    <script src="js/questionBank.js"></script>
+    <script src="js/answers.js"></script>
+    <script src="js/index.js"></script>
+   
+</body>
+
+</html>

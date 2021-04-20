@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Result | Test App</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <form>
+        <h1>Review | Test App</h1>
+        <fieldset>
+            
+            <legend class="ques" id="number"></legend>
+    
+            <label class="ques" id="question">
+            </label>
+
+            <div><span id="optiont1"></span>
+            </div>
+            <div><span id="optiont2"></span>
+            </div>
+            <div>
+                <span id="optiont3"></span>
+            </div>
+            </br>
+            <label> Correct Answers : <span id="correctAns"></span></label>
+            <!---<label> Your Response  :  <span id="response"></span> </label>---->
+    
+            </br>
+            <div class="lftCss">
+                <input type="button" value="Next" id="myButton1" onclick="reviewAnswer()"></input>
+                <span id="final"></span>
+            </div>
+            </div>
+        </fieldset>
+    </form>
+    <script src="js/questionBank.js"></script>
+    <script src="js/answers.js"></script>
+    <script src="js/review.js"></script>
+</body>
+
+</html>
