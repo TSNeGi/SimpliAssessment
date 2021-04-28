@@ -9,7 +9,7 @@ public class SpringController {
 	@RequestMapping("/")  
 	public String welcome()   
 	{  
-	String print="Successfully deployed the Spring Boot App. \n Its AWS with Docker."; 
+	String print="Successfully build pipeline in Jenkins. \n Its AWS with jenkins."; 
 	return print;
 	}  
 }
